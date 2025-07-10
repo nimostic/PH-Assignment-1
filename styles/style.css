@@ -59,7 +59,13 @@ header {
     margin-top: 37px;
     margin-bottom: 152px;
 }
-
+.title-des{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    max-width: 950px;
+    margin: 0 auto;
+}
 main {
     max-width: 1140px;
     margin: 0 auto;
