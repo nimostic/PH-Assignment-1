@@ -168,3 +168,33 @@ body{
     font-weight: normal;
 }
 
+/* focus - section */
+
+.focus{
+    text-align: center;
+    padding: 71px 150px;
+    background-color: white;
+    border-radius: 14px;
+    margin-bottom: 92px;
+}
+.focus-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+.focus h6{
+    margin: 20px 0px;
+    font-size: 20px;
+    color: #B3B3B3;
+    font-weight: normal;
+}
+.focus button{
+    margin: 20px 0px;
+    font-weight: normal;
+}
+.focus img{
+    border-radius: 48px;
+}
+
+/* touch section */
+
+
