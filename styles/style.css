@@ -1,32 +1,34 @@
-
 .raleway-font {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
-*{
+
+* {
     margin: 0;
 }
-header{
+
+header {
     background-image: url(../Assets/Hero-bg.png);
     margin-bottom: 116px;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 150px 50px 150px;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #4E47FF;
     color: white;
     font-size: 16px;
@@ -36,43 +38,51 @@ header{
     border: none;
 }
 
-.nav-title{
+.nav-title {
     color: #4E47FF;
     font-size: 34px;
 }
-.head-div{
+
+.head-div {
     text-align: center;
     margin-top: 208px;
 }
-.head-div button{
+
+.head-div button {
     margin-top: 37px;
     margin-bottom: 152px;
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-body{
+
+body {
     background-color: #F5F8FF;
 }
-.action{
+
+.action {
     display: flex;
     justify-content: space-between;
 }
-.action-left{
+
+.action-left {
     max-width: 570px;
     padding: 62.5px 0px
 }
-.action-right img{
+
+.action-right img {
     max-width: 570px;
     border-radius: 48px;
 }
-.action-left h1{
+
+.action-left h1 {
     font-size: 42px;
     font-weight: bold;
 }
-.action-left h3{
+
+.action-left h3 {
     font-size: 24px;
     margin: 23px 0px;
     color: #CED0D8;
@@ -83,29 +93,33 @@ body{
 /* user section */
 
 
-.users{
+.users {
     margin: 116px 0px 137px 0px;
     text-align: center;
     background-color: #E5E7FF;
     border-radius: 24px;
     padding: 50px 142px;
 }
-.users-title{
+
+.users-title {
     font-size: 38px;
     font-weight: bold;
     color: #252432;
-    padding-bottom:40px ;
+    padding-bottom: 40px;
 }
-.active-users{
+
+.active-users {
     display: flex;
     justify-content: space-around;
 }
-.users-item h1{
+
+.users-item h1 {
     color: #4E47FF;
     font-size: 80px;
     font-weight: bold;
 }
-.users-item p{
+
+.users-item p {
     font-size: 20px;
     font-weight: normal;
     color: #81818F;
@@ -114,23 +128,25 @@ body{
 
 /* rating section */
 
-.rating{
+.rating {
     text-align: center;
     margin-bottom: 137px;
 }
-.rating-section-heading{
+
+.rating-section-heading {
     font-weight: bold;
     font-size: 42px;
     color: #252432;
 }
-.rating-div{
+
+.rating-div {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
     gap: 20px;
 }
 
-.rating-card{
+.rating-card {
     background-color: white;
     /* border: 2px solid tomato; */
     padding: 24px;
@@ -138,31 +154,35 @@ body{
     border-radius: 14px;
 }
 
-.star-icon{
+.star-icon {
     margin-bottom: 20px;
 }
-.rating-des{
+
+.rating-des {
     padding-top: 8px;
     padding-bottom: 24px;
     color: #1E1E1E;
     font-weight: normal;
 }
-.reviewer{
+
+.reviewer {
     display: flex;
     gap: 6px;
     align-items: center;
 }
-.reviewer img{
+
+.reviewer img {
     border-radius: 50%;
     width: 40px;
     height: 40px;
 }
-.reviewer h1{
+
+.reviewer h1 {
     color: #757575;
     font-size: 16px;
 }
 
-.reviewer p{
+.reviewer p {
     color: #B3B3B3;
     font-size: 16px;
     font-weight: normal;
@@ -170,31 +190,123 @@ body{
 
 /* focus - section */
 
-.focus{
+.focus {
     text-align: center;
     padding: 71px 150px;
     background-color: white;
     border-radius: 14px;
     margin-bottom: 92px;
 }
-.focus-title{
+
+.focus-title {
     font-weight: bold;
     font-size: 50px;
 }
-.focus h6{
+
+.focus h6 {
     margin: 20px 0px;
     font-size: 20px;
     color: #B3B3B3;
     font-weight: normal;
 }
-.focus button{
+
+.focus button {
     margin: 20px 0px;
     font-weight: normal;
 }
-.focus img{
+
+.focus img {
     border-radius: 48px;
 }
 
 /* touch section */
 
 
+.touch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 0px;
+}
+
+.touch-title {
+    font-weight: bold;
+    font-size: 97px;
+}
+
+.i-label {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.touch input ,.touch textarea{
+    display: block;
+    width: 497px;
+    height: 40px;
+    padding: 20px 32px;
+    background-color: white;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 19px;
+    border-radius: 10px;
+    color: #B3B3B3;
+    border: 1px solid #D6DDED;
+}
+
+.touch textarea {
+    height: 100px;
+}
+
+.touch .btn-primary {
+    width: 100%;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+
+/* footer */
+
+footer{
+    text-align: center;
+    background-color: white;
+}
+.footer-div{
+    padding: 104px 456px;
+    max-width: 570px;
+    margin: 0 auto;
+}
+.footer-title{
+    font-size: 100px;
+    font-weight:bolder;
+    color: #4E47FF;
+}
+
+.des{
+    color: #8987A1;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 8px 0px 20px 0px;
+}
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    color: #8987A1;
+    font-size: 18px;
+    font-weight: normal;
+}
+.service li{
+    list-style: none;
+}
+.service a{
+    text-decoration: none;
+    color: #8987A1;
+}
